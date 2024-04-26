@@ -1,6 +1,6 @@
 APIKEY = "146f96bcd6e54078b97102317242504";
 
-// http://api.weatherapi.com/v1/current.json?key=146f96bcd6e54078b97102317242504&q=London&aqi=yes
+// https://api.weatherapi.com/v1/current.json?key=146f96bcd6e54078b97102317242504&q=London&aqi=yes
 
 
 const searchBtn = document.getElementById('searchBtn');
