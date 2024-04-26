@@ -16,7 +16,7 @@ const sup = document.getElementById('sup')
 
 async function getData(APIKEY, cityInput) {
   const promise = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=${APIKEY}&q=${cityInput}&aqi=yes`);
+    `https://api.weatherapi.com/v1/current.json?key=${APIKEY}&q=${cityInput}&aqi=yes`);
      return await promise.json();
 }
 
